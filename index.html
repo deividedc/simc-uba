@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_252827b193d9e808b4dbbdf1d004ec11 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<div style="
+position: fixed;
+bottom: 40px;
+left: 40px;
+width: 170px;
+height: 130px;
+background-color: white;
+border:2px solid grey;
+z-index:9999;
+font-size:14px;
+padding: 10px;
+">
+<b>Status</b><br>
+<span style="color:green;">●</span> Livre<br>
+<span style="color:gold;">●</span> Parcial<br>
+<span style="color:red;">●</span> Total<br>
+<span style="color:gray;">●</span> Desconhecido
+</div>
+    
+            <div class="folium-map" id="map_252827b193d9e808b4dbbdf1d004ec11" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_252827b193d9e808b4dbbdf1d004ec11 = L.map(
+                "map_252827b193d9e808b4dbbdf1d004ec11",
+                {
+                    center: [-21.113540519999997, -42.952936720000004],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_af11443c5c1b79ef56138bf2bc1e609c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_af11443c5c1b79ef56138bf2bc1e609c.addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+        
+    
+            var circle_marker_60d8fb774f439589f06e64bde294bde4 = L.circleMarker(
+                [-21.1159314, -42.9429566],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0, "stroke": true, "weight": 1}
+            ).addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+        
+    
+        var popup_67945576c9e7c82f1765b84e461a2435 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3af8dd2728c819b2cba5d3099fceb16 = $(`<div id="html_a3af8dd2728c819b2cba5d3099fceb16" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua José Moreira Mendes<br><b>Bairro:</b> Centro<br><b>Afetados:</b> 100<br><b>Status:</b> interditado<br><b>Prioridade:</b> 100.0%</div>`)[0];
+                popup_67945576c9e7c82f1765b84e461a2435.setContent(html_a3af8dd2728c819b2cba5d3099fceb16);
+            
+        
+
+        circle_marker_60d8fb774f439589f06e64bde294bde4.bindPopup(popup_67945576c9e7c82f1765b84e461a2435)
+        ;
+
+        
+    
+    
+            var circle_marker_f8dcd0c430201e2454ac1db56256f525 = L.circleMarker(
+                [-21.1127802, -42.9588642],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 1}
+            ).addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+        
+    
+        var popup_f863157648f6b9683298d20a618470a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d4b7aa53898e8c664d4369226531897 = $(`<div id="html_9d4b7aa53898e8c664d4369226531897" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Avenida Jesus Brandão <br><b>Bairro:</b> San Rafael<br><b>Afetados:</b> 69<br><b>Status:</b> livre<br><b>Prioridade:</b> 46.0%</div>`)[0];
+                popup_f863157648f6b9683298d20a618470a7.setContent(html_9d4b7aa53898e8c664d4369226531897);
+            
+        
+
+        circle_marker_f8dcd0c430201e2454ac1db56256f525.bindPopup(popup_f863157648f6b9683298d20a618470a7)
+        ;
+
+        
+    
+    
+            var circle_marker_826da5afb2c46fce160e5ec9904dc44c = L.circleMarker(
+                [-21.1129414, -42.9613626],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.239999999999998, "stroke": true, "weight": 1}
+            ).addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+        
+    
+        var popup_205d2123c17c824b404fdde831400b9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db2f86762c453e1db706f82b0b1cfb64 = $(`<div id="html_db2f86762c453e1db706f82b0b1cfb64" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Cecilia Medice Tonieto<br><b>Bairro:</b> San Raafel<br><b>Afetados:</b> 53<br><b>Status:</b> parcial<br><b>Prioridade:</b> 42.4%</div>`)[0];
+                popup_205d2123c17c824b404fdde831400b9c.setContent(html_db2f86762c453e1db706f82b0b1cfb64);
+            
+        
+
+        circle_marker_826da5afb2c46fce160e5ec9904dc44c.bindPopup(popup_205d2123c17c824b404fdde831400b9c)
+        ;
+
+        
+    
+    
+            var circle_marker_0cc9cc847ec20c24d490bfd859a5d47a = L.circleMarker(
+                [-21.1134566, -42.9595271],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.1, "stroke": true, "weight": 1}
+            ).addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+        
+    
+        var popup_145786c20200d145671590c3788a6e82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d420de58b779c1738e30a6f10e676312 = $(`<div id="html_d420de58b779c1738e30a6f10e676312" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Pedro Botaro<br><b>Bairro:</b> San Rafael<br><b>Afetados:</b> 41<br><b>Status:</b> interditado<br><b>Prioridade:</b> 41.0%</div>`)[0];
+                popup_145786c20200d145671590c3788a6e82.setContent(html_d420de58b779c1738e30a6f10e676312);
+            
+        
+
+        circle_marker_0cc9cc847ec20c24d490bfd859a5d47a.bindPopup(popup_145786c20200d145671590c3788a6e82)
+        ;
+
+        
+    
+    
+            var circle_marker_62adff5dd7bdaae2627ee5fbaf85d9a7 = L.circleMarker(
+                [-21.112593, -42.9419731],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.333333333333333, "stroke": true, "weight": 1}
+            ).addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+        
+    
+        var popup_5a1534adeb5e48f3517b5d0ce9beba48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b3d2a7f94292f8a199d6c128eac7253 = $(`<div id="html_5b3d2a7f94292f8a199d6c128eac7253" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Coronel Otaviano da Rocha<br><b>Bairro:</b> São Domingos<br><b>Afetados:</b> 5<br><b>Status:</b> livre<br><b>Prioridade:</b> 3.33%</div>`)[0];
+                popup_5a1534adeb5e48f3517b5d0ce9beba48.setContent(html_5b3d2a7f94292f8a199d6c128eac7253);
+            
+        
+
+        circle_marker_62adff5dd7bdaae2627ee5fbaf85d9a7.bindPopup(popup_5a1534adeb5e48f3517b5d0ce9beba48)
+        ;
+
+        
+    
+</script>
+</html>

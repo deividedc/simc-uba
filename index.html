@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_252827b193d9e808b4dbbdf1d004ec11 {
+                #map_d6ea28e7495ab34efc30eb47ff39c51e {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -73,14 +73,32 @@ padding: 10px;
 <span style="color:gray;">●</span> Desconhecido
 </div>
     
-            <div class="folium-map" id="map_252827b193d9e808b4dbbdf1d004ec11" ></div>
+<div style="
+position: fixed;
+top: 10px;
+left: 50%;
+transform: translateX(-50%);
+width: 80%;
+background-color: white;
+border:2px solid black;
+z-index:9999;
+font-size:20px;
+font-weight:bold;
+text-align:center;
+padding: 10px;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+">
+SISTEMA INTEGRADO DE MONITORAMENTO COLABORATIVO DE ENCHENTES - UBÁ/MG
+</div>
+    
+            <div class="folium-map" id="map_d6ea28e7495ab34efc30eb47ff39c51e" ></div>
         
 </body>
 <script>
     
     
-            var map_252827b193d9e808b4dbbdf1d004ec11 = L.map(
-                "map_252827b193d9e808b4dbbdf1d004ec11",
+            var map_d6ea28e7495ab34efc30eb47ff39c51e = L.map(
+                "map_d6ea28e7495ab34efc30eb47ff39c51e",
                 {
                     center: [-21.113540519999997, -42.952936720000004],
                     crs: L.CRS.EPSG3857,
@@ -97,7 +115,7 @@ padding: 10px;
 
         
     
-            var tile_layer_af11443c5c1b79ef56138bf2bc1e609c = L.tileLayer(
+            var tile_layer_1277ccfe7abd591935e7d457c25ee964 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -114,119 +132,119 @@ padding: 10px;
             );
         
     
-            tile_layer_af11443c5c1b79ef56138bf2bc1e609c.addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+            tile_layer_1277ccfe7abd591935e7d457c25ee964.addTo(map_d6ea28e7495ab34efc30eb47ff39c51e);
         
     
-            var circle_marker_60d8fb774f439589f06e64bde294bde4 = L.circleMarker(
+            var circle_marker_51e1779d61dfe3df1e23c9872060c69b = L.circleMarker(
                 [-21.1159314, -42.9429566],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0, "stroke": true, "weight": 1}
-            ).addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+            ).addTo(map_d6ea28e7495ab34efc30eb47ff39c51e);
         
     
-        var popup_67945576c9e7c82f1765b84e461a2435 = L.popup({
+        var popup_19164d1a02c1aa7f315b2d7f1fab726f = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_a3af8dd2728c819b2cba5d3099fceb16 = $(`<div id="html_a3af8dd2728c819b2cba5d3099fceb16" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua José Moreira Mendes<br><b>Bairro:</b> Centro<br><b>Afetados:</b> 100<br><b>Status:</b> interditado<br><b>Prioridade:</b> 100.0%</div>`)[0];
-                popup_67945576c9e7c82f1765b84e461a2435.setContent(html_a3af8dd2728c819b2cba5d3099fceb16);
+                var html_88bf1413a7d81a1aa6fbc1c6349c2982 = $(`<div id="html_88bf1413a7d81a1aa6fbc1c6349c2982" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua José Moreira Mendes<br><b>Bairro:</b> Centro<br><b>Afetados:</b> 100<br><b>Status:</b> interditado<br><b>Prioridade:</b> 100.0%</div>`)[0];
+                popup_19164d1a02c1aa7f315b2d7f1fab726f.setContent(html_88bf1413a7d81a1aa6fbc1c6349c2982);
             
         
 
-        circle_marker_60d8fb774f439589f06e64bde294bde4.bindPopup(popup_67945576c9e7c82f1765b84e461a2435)
+        circle_marker_51e1779d61dfe3df1e23c9872060c69b.bindPopup(popup_19164d1a02c1aa7f315b2d7f1fab726f)
         ;
 
         
     
     
-            var circle_marker_f8dcd0c430201e2454ac1db56256f525 = L.circleMarker(
+            var circle_marker_bd6fdd250850700886fc9fbaaf6e4204 = L.circleMarker(
                 [-21.1127802, -42.9588642],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 1}
-            ).addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+            ).addTo(map_d6ea28e7495ab34efc30eb47ff39c51e);
         
     
-        var popup_f863157648f6b9683298d20a618470a7 = L.popup({
+        var popup_c2eba8f0f2ba5f2e2622472028d00081 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_9d4b7aa53898e8c664d4369226531897 = $(`<div id="html_9d4b7aa53898e8c664d4369226531897" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Avenida Jesus Brandão <br><b>Bairro:</b> San Rafael<br><b>Afetados:</b> 69<br><b>Status:</b> livre<br><b>Prioridade:</b> 46.0%</div>`)[0];
-                popup_f863157648f6b9683298d20a618470a7.setContent(html_9d4b7aa53898e8c664d4369226531897);
+                var html_609f25350db8d23276e67832ffac2227 = $(`<div id="html_609f25350db8d23276e67832ffac2227" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Avenida Jesus Brandão <br><b>Bairro:</b> San Rafael<br><b>Afetados:</b> 69<br><b>Status:</b> livre<br><b>Prioridade:</b> 46.0%</div>`)[0];
+                popup_c2eba8f0f2ba5f2e2622472028d00081.setContent(html_609f25350db8d23276e67832ffac2227);
             
         
 
-        circle_marker_f8dcd0c430201e2454ac1db56256f525.bindPopup(popup_f863157648f6b9683298d20a618470a7)
+        circle_marker_bd6fdd250850700886fc9fbaaf6e4204.bindPopup(popup_c2eba8f0f2ba5f2e2622472028d00081)
         ;
 
         
     
     
-            var circle_marker_826da5afb2c46fce160e5ec9904dc44c = L.circleMarker(
+            var circle_marker_4d5060d47eb378607448a10031f6bdd3 = L.circleMarker(
                 [-21.1129414, -42.9613626],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.239999999999998, "stroke": true, "weight": 1}
-            ).addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+            ).addTo(map_d6ea28e7495ab34efc30eb47ff39c51e);
         
     
-        var popup_205d2123c17c824b404fdde831400b9c = L.popup({
+        var popup_34b42117c14283ec6821d674b7b1038e = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_db2f86762c453e1db706f82b0b1cfb64 = $(`<div id="html_db2f86762c453e1db706f82b0b1cfb64" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Cecilia Medice Tonieto<br><b>Bairro:</b> San Raafel<br><b>Afetados:</b> 53<br><b>Status:</b> parcial<br><b>Prioridade:</b> 42.4%</div>`)[0];
-                popup_205d2123c17c824b404fdde831400b9c.setContent(html_db2f86762c453e1db706f82b0b1cfb64);
+                var html_a1388957b38b06a8c15b3a08b968f744 = $(`<div id="html_a1388957b38b06a8c15b3a08b968f744" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Cecilia Medice Tonieto<br><b>Bairro:</b> San Raafel<br><b>Afetados:</b> 53<br><b>Status:</b> parcial<br><b>Prioridade:</b> 42.4%</div>`)[0];
+                popup_34b42117c14283ec6821d674b7b1038e.setContent(html_a1388957b38b06a8c15b3a08b968f744);
             
         
 
-        circle_marker_826da5afb2c46fce160e5ec9904dc44c.bindPopup(popup_205d2123c17c824b404fdde831400b9c)
+        circle_marker_4d5060d47eb378607448a10031f6bdd3.bindPopup(popup_34b42117c14283ec6821d674b7b1038e)
         ;
 
         
     
     
-            var circle_marker_0cc9cc847ec20c24d490bfd859a5d47a = L.circleMarker(
+            var circle_marker_7bac1c54066a6a06793bfeb955d9f6ac = L.circleMarker(
                 [-21.1134566, -42.9595271],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.1, "stroke": true, "weight": 1}
-            ).addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+            ).addTo(map_d6ea28e7495ab34efc30eb47ff39c51e);
         
     
-        var popup_145786c20200d145671590c3788a6e82 = L.popup({
+        var popup_2e73d2332e6d9be9a190540a2adf40d0 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_d420de58b779c1738e30a6f10e676312 = $(`<div id="html_d420de58b779c1738e30a6f10e676312" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Pedro Botaro<br><b>Bairro:</b> San Rafael<br><b>Afetados:</b> 41<br><b>Status:</b> interditado<br><b>Prioridade:</b> 41.0%</div>`)[0];
-                popup_145786c20200d145671590c3788a6e82.setContent(html_d420de58b779c1738e30a6f10e676312);
+                var html_1b34424dfddbea4913ba5f32a58c56ac = $(`<div id="html_1b34424dfddbea4913ba5f32a58c56ac" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Pedro Botaro<br><b>Bairro:</b> San Rafael<br><b>Afetados:</b> 41<br><b>Status:</b> interditado<br><b>Prioridade:</b> 41.0%</div>`)[0];
+                popup_2e73d2332e6d9be9a190540a2adf40d0.setContent(html_1b34424dfddbea4913ba5f32a58c56ac);
             
         
 
-        circle_marker_0cc9cc847ec20c24d490bfd859a5d47a.bindPopup(popup_145786c20200d145671590c3788a6e82)
+        circle_marker_7bac1c54066a6a06793bfeb955d9f6ac.bindPopup(popup_2e73d2332e6d9be9a190540a2adf40d0)
         ;
 
         
     
     
-            var circle_marker_62adff5dd7bdaae2627ee5fbaf85d9a7 = L.circleMarker(
+            var circle_marker_d718e6e3e941e606e71925f2707a5ab3 = L.circleMarker(
                 [-21.112593, -42.9419731],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.333333333333333, "stroke": true, "weight": 1}
-            ).addTo(map_252827b193d9e808b4dbbdf1d004ec11);
+            ).addTo(map_d6ea28e7495ab34efc30eb47ff39c51e);
         
     
-        var popup_5a1534adeb5e48f3517b5d0ce9beba48 = L.popup({
+        var popup_0b478f2ba5d0fc5703f0b49cf9ce6490 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_5b3d2a7f94292f8a199d6c128eac7253 = $(`<div id="html_5b3d2a7f94292f8a199d6c128eac7253" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Coronel Otaviano da Rocha<br><b>Bairro:</b> São Domingos<br><b>Afetados:</b> 5<br><b>Status:</b> livre<br><b>Prioridade:</b> 3.33%</div>`)[0];
-                popup_5a1534adeb5e48f3517b5d0ce9beba48.setContent(html_5b3d2a7f94292f8a199d6c128eac7253);
+                var html_aec3472a18cdee022186a21d6af2b37c = $(`<div id="html_aec3472a18cdee022186a21d6af2b37c" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Coronel Otaviano da Rocha<br><b>Bairro:</b> São Domingos<br><b>Afetados:</b> 5<br><b>Status:</b> livre<br><b>Prioridade:</b> 3.33%</div>`)[0];
+                popup_0b478f2ba5d0fc5703f0b49cf9ce6490.setContent(html_aec3472a18cdee022186a21d6af2b37c);
             
         
 
-        circle_marker_62adff5dd7bdaae2627ee5fbaf85d9a7.bindPopup(popup_5a1534adeb5e48f3517b5d0ce9beba48)
+        circle_marker_d718e6e3e941e606e71925f2707a5ab3.bindPopup(popup_0b478f2ba5d0fc5703f0b49cf9ce6490)
         ;
 
         

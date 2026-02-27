@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_9981b8ad3fb05eebe82e09187f1e1020 {
+                #map_0a88c385fd0e7342a9d21549f6ab1732 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -91,16 +91,16 @@ box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 SISTEMA INTEGRADO DE MONITORAMENTO COLABORATIVO DE ENCHENTES - UBÁ/MG
 </div>
     
-            <div class="folium-map" id="map_9981b8ad3fb05eebe82e09187f1e1020" ></div>
+            <div class="folium-map" id="map_0a88c385fd0e7342a9d21549f6ab1732" ></div>
         
 </body>
 <script>
     
     
-            var map_9981b8ad3fb05eebe82e09187f1e1020 = L.map(
-                "map_9981b8ad3fb05eebe82e09187f1e1020",
+            var map_0a88c385fd0e7342a9d21549f6ab1732 = L.map(
+                "map_0a88c385fd0e7342a9d21549f6ab1732",
                 {
-                    center: [-21.1358433, -42.9399289],
+                    center: [-21.123451250000002, -42.94754175],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 13,
@@ -115,7 +115,7 @@ SISTEMA INTEGRADO DE MONITORAMENTO COLABORATIVO DE ENCHENTES - UBÁ/MG
 
         
     
-            var tile_layer_629b30eeb6239c39fa6a6a403622816a = L.tileLayer(
+            var tile_layer_7773bcfb1dbaf7c1caa3324483a4126d = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -132,27 +132,50 @@ SISTEMA INTEGRADO DE MONITORAMENTO COLABORATIVO DE ENCHENTES - UBÁ/MG
             );
         
     
-            tile_layer_629b30eeb6239c39fa6a6a403622816a.addTo(map_9981b8ad3fb05eebe82e09187f1e1020);
+            tile_layer_7773bcfb1dbaf7c1caa3324483a4126d.addTo(map_0a88c385fd0e7342a9d21549f6ab1732);
         
     
-            var circle_marker_7ea7a007150c5c05495c353e28388d65 = L.circleMarker(
-                [-21.1358433, -42.9399289],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 1}
-            ).addTo(map_9981b8ad3fb05eebe82e09187f1e1020);
+            var circle_marker_96201ad2969868eb1bcb43af46096aa9 = L.circleMarker(
+                [-21.1110592, -42.9551546],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0, "stroke": true, "weight": 1}
+            ).addTo(map_0a88c385fd0e7342a9d21549f6ab1732);
         
     
-        var popup_c6e93936a3618baf777abc965c933adb = L.popup({
+        var popup_ab41e347714b8bd4a61e00c3874d4769 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_cf84288a389e0051bfecb60a47680410 = $(`<div id="html_cf84288a389e0051bfecb60a47680410" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Terezinha de Abreu Moreira<br><b>Bairro:</b> São josé<br><b>Afetados:</b> 0<br><b>Status:</b> livre<br><b>Prioridade:</b> 0%</div>`)[0];
-                popup_c6e93936a3618baf777abc965c933adb.setContent(html_cf84288a389e0051bfecb60a47680410);
+                var html_d467e44e826637d187a12b9ea3421a7a = $(`<div id="html_d467e44e826637d187a12b9ea3421a7a" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Ex Combatentes<br><b>Bairro:</b> Santa Luzia<br><b>Afetados:</b> 9999999<br><b>Status:</b> total<br><b>Prioridade:</b> 100.0%</div>`)[0];
+                popup_ab41e347714b8bd4a61e00c3874d4769.setContent(html_d467e44e826637d187a12b9ea3421a7a);
             
         
 
-        circle_marker_7ea7a007150c5c05495c353e28388d65.bindPopup(popup_c6e93936a3618baf777abc965c933adb)
+        circle_marker_96201ad2969868eb1bcb43af46096aa9.bindPopup(popup_ab41e347714b8bd4a61e00c3874d4769)
+        ;
+
+        
+    
+    
+            var circle_marker_e7c552a6e2f2c98ccfb8483315031cd1 = L.circleMarker(
+                [-21.1358433, -42.9399289],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 1}
+            ).addTo(map_0a88c385fd0e7342a9d21549f6ab1732);
+        
+    
+        var popup_9a234cb15fd076d1c575004dbf25e3a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f479108eae834b498c8a313d138a5cf3 = $(`<div id="html_f479108eae834b498c8a313d138a5cf3" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Terezinha de Abreu Moreira<br><b>Bairro:</b> São josé<br><b>Afetados:</b> 0<br><b>Status:</b> livre<br><b>Prioridade:</b> 0.0%</div>`)[0];
+                popup_9a234cb15fd076d1c575004dbf25e3a9.setContent(html_f479108eae834b498c8a313d138a5cf3);
+            
+        
+
+        circle_marker_e7c552a6e2f2c98ccfb8483315031cd1.bindPopup(popup_9a234cb15fd076d1c575004dbf25e3a9)
         ;
 
         

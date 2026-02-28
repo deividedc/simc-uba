@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_7e57657426d87cf07655132bea35c6e5 {
+                #map_bad4bb423798da62af29f495e21bb9a5 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -91,16 +91,16 @@ box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 SISTEMA INTEGRADO DE MONITORAMENTO COLABORATIVO DE ENCHENTES - UBÁ/MG
 </div>
     
-            <div class="folium-map" id="map_7e57657426d87cf07655132bea35c6e5" ></div>
+            <div class="folium-map" id="map_bad4bb423798da62af29f495e21bb9a5" ></div>
         
 </body>
 <script>
     
     
-            var map_7e57657426d87cf07655132bea35c6e5 = L.map(
-                "map_7e57657426d87cf07655132bea35c6e5",
+            var map_bad4bb423798da62af29f495e21bb9a5 = L.map(
+                "map_bad4bb423798da62af29f495e21bb9a5",
                 {
-                    center: [-21.114813023076923, -42.946962576923084],
+                    center: [-21.11674565625, -42.9514680625],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 13,
@@ -115,7 +115,7 @@ SISTEMA INTEGRADO DE MONITORAMENTO COLABORATIVO DE ENCHENTES - UBÁ/MG
 
         
     
-            var tile_layer_feaca6b1dc3a3f88235e28c3165578f8 = L.tileLayer(
+            var tile_layer_9983a8903f23a1afb4741436f3ebac12 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -132,303 +132,372 @@ SISTEMA INTEGRADO DE MONITORAMENTO COLABORATIVO DE ENCHENTES - UBÁ/MG
             );
         
     
-            tile_layer_feaca6b1dc3a3f88235e28c3165578f8.addTo(map_7e57657426d87cf07655132bea35c6e5);
+            tile_layer_9983a8903f23a1afb4741436f3ebac12.addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-            var circle_marker_56df0f60b04e8918a9f9887926960a77 = L.circleMarker(
+            var circle_marker_e5c308597db31912c35504b5202472e1 = L.circleMarker(
                 [-21.1039662, -42.9619857],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_5c14dd07468e0cebd75d2342a1ca9683 = L.popup({
+        var popup_346c91a81e5a1c609ce9e689cbafb8e6 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_421af00fcbcc840a141286be5d1823f0 = $(`<div id="html_421af00fcbcc840a141286be5d1823f0" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Antônio G. da Rocha<br><b>Bairro:</b> Santa alice<br><b>Afetados:</b> 35<br><b>Status:</b> total<br><b>Prioridade:</b> 100.0%</div>`)[0];
-                popup_5c14dd07468e0cebd75d2342a1ca9683.setContent(html_421af00fcbcc840a141286be5d1823f0);
+                var html_728bf2ec409097eab43ecd96e6150f9c = $(`<div id="html_728bf2ec409097eab43ecd96e6150f9c" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Antônio G. da Rocha<br><b>Bairro:</b> Santa alice<br><b>Afetados:</b> 35.0<br><b>Status:</b> total<br><b>Prioridade:</b> 100.0%</div>`)[0];
+                popup_346c91a81e5a1c609ce9e689cbafb8e6.setContent(html_728bf2ec409097eab43ecd96e6150f9c);
             
         
 
-        circle_marker_56df0f60b04e8918a9f9887926960a77.bindPopup(popup_5c14dd07468e0cebd75d2342a1ca9683)
+        circle_marker_e5c308597db31912c35504b5202472e1.bindPopup(popup_346c91a81e5a1c609ce9e689cbafb8e6)
         ;
 
         
     
     
-            var circle_marker_5f5cd12bfbf117abbc0582c701f53ca6 = L.circleMarker(
-                [-21.1134355, -42.9286877],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.142857142857142, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
-        
-    
-        var popup_a0b3f3d59f6a069ae54c3689ed057a3e = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6bec31049c8f6674a72d6892ecd6ff4c = $(`<div id="html_6bec31049c8f6674a72d6892ecd6ff4c" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Itaperuna<br><b>Bairro:</b> Bom pastor<br><b>Afetados:</b> 5<br><b>Status:</b> parcial<br><b>Prioridade:</b> 11.43%</div>`)[0];
-                popup_a0b3f3d59f6a069ae54c3689ed057a3e.setContent(html_6bec31049c8f6674a72d6892ecd6ff4c);
-            
-        
-
-        circle_marker_5f5cd12bfbf117abbc0582c701f53ca6.bindPopup(popup_a0b3f3d59f6a069ae54c3689ed057a3e)
-        ;
-
-        
-    
-    
-            var circle_marker_f42c082926fc6a65c1bd9ec07864d884 = L.circleMarker(
+            var circle_marker_b4960b57f13c8d1c1ec3b6f9a7dbf3dd = L.circleMarker(
                 [-21.1162169, -42.9471812],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.142857142857142, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_163f7b2d96d5facf12a9c148f32a54bf = L.popup({
+        var popup_aec991433b6c283a5d9d0b6cabf04af3 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_3c779ae0a8b4eb186283f58130a9cb77 = $(`<div id="html_3c779ae0a8b4eb186283f58130a9cb77" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Vereador Rubens Barreto<br><b>Bairro:</b> Galdino Alvim<br><b>Afetados:</b> 4<br><b>Status:</b> total<br><b>Prioridade:</b> 11.43%</div>`)[0];
-                popup_163f7b2d96d5facf12a9c148f32a54bf.setContent(html_3c779ae0a8b4eb186283f58130a9cb77);
+                var html_5052c4c20d78432bf1a6d73c78e4742d = $(`<div id="html_5052c4c20d78432bf1a6d73c78e4742d" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Vereador Rubens Barreto<br><b>Bairro:</b> Galdino Alvim<br><b>Afetados:</b> 4.0<br><b>Status:</b> total<br><b>Prioridade:</b> 11.43%</div>`)[0];
+                popup_aec991433b6c283a5d9d0b6cabf04af3.setContent(html_5052c4c20d78432bf1a6d73c78e4742d);
             
         
 
-        circle_marker_f42c082926fc6a65c1bd9ec07864d884.bindPopup(popup_163f7b2d96d5facf12a9c148f32a54bf)
+        circle_marker_b4960b57f13c8d1c1ec3b6f9a7dbf3dd.bindPopup(popup_aec991433b6c283a5d9d0b6cabf04af3)
         ;
 
         
     
     
-            var circle_marker_d140a724d7f8b26f84f27cc5234957ff = L.circleMarker(
+            var circle_marker_0f7808e618141529696d4be0536dc8b2 = L.circleMarker(
+                [-21.1134355, -42.9286877],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.142857142857142, "stroke": true, "weight": 1}
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
+        
+    
+        var popup_dca5493265a325ad1692ca608cd0b7ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d1c4cdce5fb3ca041a925f9a4b1889d = $(`<div id="html_6d1c4cdce5fb3ca041a925f9a4b1889d" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Itaperuna<br><b>Bairro:</b> Bom pastor<br><b>Afetados:</b> 5.0<br><b>Status:</b> parcial<br><b>Prioridade:</b> 11.43%</div>`)[0];
+                popup_dca5493265a325ad1692ca608cd0b7ac.setContent(html_6d1c4cdce5fb3ca041a925f9a4b1889d);
+            
+        
+
+        circle_marker_0f7808e618141529696d4be0536dc8b2.bindPopup(popup_dca5493265a325ad1692ca608cd0b7ac)
+        ;
+
+        
+    
+    
+            var circle_marker_7357fb2649187716bbb3d1c9d0d4e12d = L.circleMarker(
                 [-21.1172415, -42.9745936],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.9523809523809526, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_9d447c7807469c17039a27bee3dfb80d = L.popup({
+        var popup_c1cdbb7b38fdc9dfcfa2672c56693de1 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_2a2a72d824a538fffaf8af64f53e208f = $(`<div id="html_2a2a72d824a538fffaf8af64f53e208f" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Alameda das Casuarinas<br><b>Bairro:</b> Cidade Jardim<br><b>Afetados:</b> 5<br><b>Status:</b> livre<br><b>Prioridade:</b> 9.52%</div>`)[0];
-                popup_9d447c7807469c17039a27bee3dfb80d.setContent(html_2a2a72d824a538fffaf8af64f53e208f);
+                var html_bd2196bdcdd8bf0df7d6fceff0872c32 = $(`<div id="html_bd2196bdcdd8bf0df7d6fceff0872c32" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Alameda das Casuarinas<br><b>Bairro:</b> Cidade Jardim<br><b>Afetados:</b> 5.0<br><b>Status:</b> livre<br><b>Prioridade:</b> 9.52%</div>`)[0];
+                popup_c1cdbb7b38fdc9dfcfa2672c56693de1.setContent(html_bd2196bdcdd8bf0df7d6fceff0872c32);
             
         
 
-        circle_marker_d140a724d7f8b26f84f27cc5234957ff.bindPopup(popup_9d447c7807469c17039a27bee3dfb80d)
+        circle_marker_7357fb2649187716bbb3d1c9d0d4e12d.bindPopup(popup_c1cdbb7b38fdc9dfcfa2672c56693de1)
         ;
 
         
     
     
-            var circle_marker_4b7817477e3285d81f523fadea737d55 = L.circleMarker(
+            var circle_marker_452ec1b745a503ac2248fdb79021f366 = L.circleMarker(
                 [-21.0775115, -42.9495577],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.761904761904762, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_b95150d81d2e9626ccc834851e289cfc = L.popup({
+        var popup_bac1458091fa34edca4f43af9505bbb5 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_0e7cebe7b5e3570cefd0fcb8ebee993f = $(`<div id="html_0e7cebe7b5e3570cefd0fcb8ebee993f" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua A2<br><b>Bairro:</b> Jardim Esperança<br><b>Afetados:</b> 4<br><b>Status:</b> livre<br><b>Prioridade:</b> 7.62%</div>`)[0];
-                popup_b95150d81d2e9626ccc834851e289cfc.setContent(html_0e7cebe7b5e3570cefd0fcb8ebee993f);
+                var html_cd0ebea808da41e1f2f58532c7c5eb96 = $(`<div id="html_cd0ebea808da41e1f2f58532c7c5eb96" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua A2<br><b>Bairro:</b> Jardim Esperança<br><b>Afetados:</b> 4.0<br><b>Status:</b> livre<br><b>Prioridade:</b> 7.62%</div>`)[0];
+                popup_bac1458091fa34edca4f43af9505bbb5.setContent(html_cd0ebea808da41e1f2f58532c7c5eb96);
             
         
 
-        circle_marker_4b7817477e3285d81f523fadea737d55.bindPopup(popup_b95150d81d2e9626ccc834851e289cfc)
+        circle_marker_452ec1b745a503ac2248fdb79021f366.bindPopup(popup_bac1458091fa34edca4f43af9505bbb5)
         ;
 
         
     
     
-            var circle_marker_eff7adb197ab27da06081a6615630a73 = L.circleMarker(
+            var circle_marker_e0fedc028e7b311ef107aba8b2b98f44 = L.circleMarker(
                 [-21.114725, -42.9312221],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.685714285714286, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_a4ff4e87d9bae8f7bd2087d6e48627d9 = L.popup({
+        var popup_5d72f663557736a1c3f2debc1826436a = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_3c4c90ed103b69ba71278b3426d9dc20 = $(`<div id="html_3c4c90ed103b69ba71278b3426d9dc20" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Avenida José Resende Brando<br><b>Bairro:</b> Bom Pastor <br><b>Afetados:</b> 3<br><b>Status:</b> parcial<br><b>Prioridade:</b> 6.86%</div>`)[0];
-                popup_a4ff4e87d9bae8f7bd2087d6e48627d9.setContent(html_3c4c90ed103b69ba71278b3426d9dc20);
+                var html_d5de45888a0d1dd7a6143e400daf4a8a = $(`<div id="html_d5de45888a0d1dd7a6143e400daf4a8a" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Avenida José Resende Brando<br><b>Bairro:</b> Bom Pastor <br><b>Afetados:</b> 3.0<br><b>Status:</b> parcial<br><b>Prioridade:</b> 6.86%</div>`)[0];
+                popup_5d72f663557736a1c3f2debc1826436a.setContent(html_d5de45888a0d1dd7a6143e400daf4a8a);
             
         
 
-        circle_marker_eff7adb197ab27da06081a6615630a73.bindPopup(popup_a4ff4e87d9bae8f7bd2087d6e48627d9)
+        circle_marker_e0fedc028e7b311ef107aba8b2b98f44.bindPopup(popup_5d72f663557736a1c3f2debc1826436a)
         ;
 
         
     
     
-            var circle_marker_6a9d52955b4739fe46ac964376f12091 = L.circleMarker(
+            var circle_marker_00c704c1a02ec6945ddc1bd362008ced = L.circleMarker(
                 [-21.1162169, -42.9471812],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.457142857142857, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_b54bfee1d967bb15bb9a2389fd36abb9 = L.popup({
+        var popup_648983f6be311301f2d029d0c05622e5 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_609a9115affa3bb2a988bb1554b10190 = $(`<div id="html_609a9115affa3bb2a988bb1554b10190" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Vereador Rubens Barreto<br><b>Bairro:</b> Galdino Alvim<br><b>Afetados:</b> 2<br><b>Status:</b> parcial<br><b>Prioridade:</b> 4.57%</div>`)[0];
-                popup_b54bfee1d967bb15bb9a2389fd36abb9.setContent(html_609a9115affa3bb2a988bb1554b10190);
+                var html_0e82262715c631107cbf84283dd810e0 = $(`<div id="html_0e82262715c631107cbf84283dd810e0" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Vereador Rubens Barreto<br><b>Bairro:</b> Galdino Alvim<br><b>Afetados:</b> 2.0<br><b>Status:</b> parcial<br><b>Prioridade:</b> 4.57%</div>`)[0];
+                popup_648983f6be311301f2d029d0c05622e5.setContent(html_0e82262715c631107cbf84283dd810e0);
             
         
 
-        circle_marker_6a9d52955b4739fe46ac964376f12091.bindPopup(popup_b54bfee1d967bb15bb9a2389fd36abb9)
+        circle_marker_00c704c1a02ec6945ddc1bd362008ced.bindPopup(popup_648983f6be311301f2d029d0c05622e5)
         ;
 
         
     
     
-            var circle_marker_fdc175bd611d847b7e08ebc15a76e18b = L.circleMarker(
+            var circle_marker_ec572d43297ad3704f572dce91c9d55a = L.circleMarker(
+                [-21.094347, -42.9699436],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.285714285714286, "stroke": true, "weight": 1}
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
+        
+    
+        var popup_83a83920cf93c4a5e2b55c11a3e5193d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99c002783e89c3d33715864ee37720b1 = $(`<div id="html_99c002783e89c3d33715864ee37720b1" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Maria Duarte cancela 45<br><b>Bairro:</b> Antonina Coelho <br><b>Afetados:</b> 1.0<br><b>Status:</b> total<br><b>Prioridade:</b> 2.86%</div>`)[0];
+                popup_83a83920cf93c4a5e2b55c11a3e5193d.setContent(html_99c002783e89c3d33715864ee37720b1);
+            
+        
+
+        circle_marker_ec572d43297ad3704f572dce91c9d55a.bindPopup(popup_83a83920cf93c4a5e2b55c11a3e5193d)
+        ;
+
+        
+    
+    
+            var circle_marker_b137270fc98c3b32ad86d1994cf10bb2 = L.circleMarker(
                 [-21.1110592, -42.9551546],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.285714285714286, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_940b463cf918cd205c59e1dda6b594b3 = L.popup({
+        var popup_d6d0f28ce823217829725fbe64f2f364 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_d908b97dc32bf00c3dc82974bbf62ab9 = $(`<div id="html_d908b97dc32bf00c3dc82974bbf62ab9" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Avenida dos Ex-Combatentes<br><b>Bairro:</b> Santa Luzia<br><b>Afetados:</b> 1<br><b>Status:</b> total<br><b>Prioridade:</b> 2.86%</div>`)[0];
-                popup_940b463cf918cd205c59e1dda6b594b3.setContent(html_d908b97dc32bf00c3dc82974bbf62ab9);
+                var html_eaa2aebb1467349d55574002c2f1f13b = $(`<div id="html_eaa2aebb1467349d55574002c2f1f13b" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Avenida dos Ex-Combatentes<br><b>Bairro:</b> Santa Luzia<br><b>Afetados:</b> 1.0<br><b>Status:</b> total<br><b>Prioridade:</b> 2.86%</div>`)[0];
+                popup_d6d0f28ce823217829725fbe64f2f364.setContent(html_eaa2aebb1467349d55574002c2f1f13b);
             
         
 
-        circle_marker_fdc175bd611d847b7e08ebc15a76e18b.bindPopup(popup_940b463cf918cd205c59e1dda6b594b3)
+        circle_marker_b137270fc98c3b32ad86d1994cf10bb2.bindPopup(popup_d6d0f28ce823217829725fbe64f2f364)
         ;
 
         
     
     
-            var circle_marker_482c5e7d4167f438bfa8e10d600bdc57 = L.circleMarker(
+            var circle_marker_71ae08baf7a531806dc9c11d6f064a14 = L.circleMarker(
                 [-21.1250559, -42.9243291],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.228571428571429, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_9945c1abc8f1e4c01639e7be0118f360 = L.popup({
+        var popup_298ed59e2fb7925bcfb1ad19e323cc9c = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_6d48a200d3c6dd281c75d4fb21f77e62 = $(`<div id="html_6d48a200d3c6dd281c75d4fb21f77e62" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Gustavo Gori<br><b>Bairro:</b> Santa Bernadete <br><b>Afetados:</b> 1<br><b>Status:</b> parcial<br><b>Prioridade:</b> 2.29%</div>`)[0];
-                popup_9945c1abc8f1e4c01639e7be0118f360.setContent(html_6d48a200d3c6dd281c75d4fb21f77e62);
+                var html_26894b9189bdb682fb077a6570181739 = $(`<div id="html_26894b9189bdb682fb077a6570181739" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Gustavo Gori<br><b>Bairro:</b> Santa Bernadete <br><b>Afetados:</b> 1.0<br><b>Status:</b> parcial<br><b>Prioridade:</b> 2.29%</div>`)[0];
+                popup_298ed59e2fb7925bcfb1ad19e323cc9c.setContent(html_26894b9189bdb682fb077a6570181739);
             
         
 
-        circle_marker_482c5e7d4167f438bfa8e10d600bdc57.bindPopup(popup_9945c1abc8f1e4c01639e7be0118f360)
+        circle_marker_71ae08baf7a531806dc9c11d6f064a14.bindPopup(popup_298ed59e2fb7925bcfb1ad19e323cc9c)
         ;
 
         
     
     
-            var circle_marker_f37bd06b135d4246ffae8ea6f1e46364 = L.circleMarker(
-                [-21.1172415, -42.9745936],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
-        
-    
-        var popup_5b672bdfc8158dbe42f7fcc812e2a064 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6f9014a853adc1079061a9660dccd646 = $(`<div id="html_6f9014a853adc1079061a9660dccd646" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Alameda das Casuarinas <br><b>Bairro:</b> Cidade Jardim<br><b>Afetados:</b> 0<br><b>Status:</b> livre<br><b>Prioridade:</b> 0.0%</div>`)[0];
-                popup_5b672bdfc8158dbe42f7fcc812e2a064.setContent(html_6f9014a853adc1079061a9660dccd646);
-            
-        
-
-        circle_marker_f37bd06b135d4246ffae8ea6f1e46364.bindPopup(popup_5b672bdfc8158dbe42f7fcc812e2a064)
-        ;
-
-        
-    
-    
-            var circle_marker_6e0b835f714c16e71ff9bf2c1e55549c = L.circleMarker(
+            var circle_marker_786c8c803c5403efcb491f29ea8dec03 = L.circleMarker(
                 [-21.1358433, -42.9399289],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_fc812febdebe2c2cc8828eaebf50f62f = L.popup({
+        var popup_8d46a2ee2ce74c1ad213b4bbb9c6c831 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_c8b3751454168b09fa0bfad209370882 = $(`<div id="html_c8b3751454168b09fa0bfad209370882" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Terezinha de Abreu Moreira<br><b>Bairro:</b> São josé<br><b>Afetados:</b> 0<br><b>Status:</b> livre<br><b>Prioridade:</b> 0.0%</div>`)[0];
-                popup_fc812febdebe2c2cc8828eaebf50f62f.setContent(html_c8b3751454168b09fa0bfad209370882);
+                var html_786ab5a4fc9ab392700760fe10ed6741 = $(`<div id="html_786ab5a4fc9ab392700760fe10ed6741" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Terezinha de Abreu Moreira<br><b>Bairro:</b> São josé<br><b>Afetados:</b> 0.0<br><b>Status:</b> livre<br><b>Prioridade:</b> 0.0%</div>`)[0];
+                popup_8d46a2ee2ce74c1ad213b4bbb9c6c831.setContent(html_786ab5a4fc9ab392700760fe10ed6741);
             
         
 
-        circle_marker_6e0b835f714c16e71ff9bf2c1e55549c.bindPopup(popup_fc812febdebe2c2cc8828eaebf50f62f)
+        circle_marker_786c8c803c5403efcb491f29ea8dec03.bindPopup(popup_8d46a2ee2ce74c1ad213b4bbb9c6c831)
         ;
 
         
     
     
-            var circle_marker_abfd526845051812c590ec44a80f4223 = L.circleMarker(
+            var circle_marker_5f67ad9f3226e1d2f09843d3ef563886 = L.circleMarker(
+                [-21.1172415, -42.9745936],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 1}
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
+        
+    
+        var popup_c2fd7e4bee4af62cc2f0e81b2cfd352c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0235cc7478c949e011e346dc1530ded9 = $(`<div id="html_0235cc7478c949e011e346dc1530ded9" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Alameda das Casuarinas <br><b>Bairro:</b> Cidade Jardim<br><b>Afetados:</b> 0.0<br><b>Status:</b> livre<br><b>Prioridade:</b> 0.0%</div>`)[0];
+                popup_c2fd7e4bee4af62cc2f0e81b2cfd352c.setContent(html_0235cc7478c949e011e346dc1530ded9);
+            
+        
+
+        circle_marker_5f67ad9f3226e1d2f09843d3ef563886.bindPopup(popup_c2fd7e4bee4af62cc2f0e81b2cfd352c)
+        ;
+
+        
+    
+    
+            var circle_marker_1ce2730465c166b7b4da8c18861d8cbf = L.circleMarker(
                 [-21.1166654, -42.93992],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_5ff8d41ac4ec15728f833edf44b40d9a = L.popup({
+        var popup_8c2638c16c757857f608194d9757d22a = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_d65132df00dbc42df3264b34c05fb172 = $(`<div id="html_d65132df00dbc42df3264b34c05fb172" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Adolfo Pereira Cortez<br><b>Bairro:</b> Sao Domingos<br><b>Afetados:</b> 0<br><b>Status:</b> parcial<br><b>Prioridade:</b> 0.0%</div>`)[0];
-                popup_5ff8d41ac4ec15728f833edf44b40d9a.setContent(html_d65132df00dbc42df3264b34c05fb172);
+                var html_f27b19c1f097255fec42a3bf6d5e0e27 = $(`<div id="html_f27b19c1f097255fec42a3bf6d5e0e27" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Adolfo Pereira Cortez<br><b>Bairro:</b> Sao Domingos<br><b>Afetados:</b> 0.0<br><b>Status:</b> parcial<br><b>Prioridade:</b> 0.0%</div>`)[0];
+                popup_8c2638c16c757857f608194d9757d22a.setContent(html_f27b19c1f097255fec42a3bf6d5e0e27);
             
         
 
-        circle_marker_abfd526845051812c590ec44a80f4223.bindPopup(popup_5ff8d41ac4ec15728f833edf44b40d9a)
+        circle_marker_1ce2730465c166b7b4da8c18861d8cbf.bindPopup(popup_8c2638c16c757857f608194d9757d22a)
         ;
 
         
     
     
-            var circle_marker_1e50851f7f1d3b7c6067a10a0857cb51 = L.circleMarker(
+            var circle_marker_2d5be7d5a8377cee118ca3b9f910c761 = L.circleMarker(
                 [-21.1273905, -42.9361781],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 1}
-            ).addTo(map_7e57657426d87cf07655132bea35c6e5);
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
         
     
-        var popup_bdabc7d9a16a13cb96b308ff8e3a0e0d = L.popup({
+        var popup_46e34b4ab62f75c9f5d9e87c395e3b48 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_c70c741c3d447f05a99208e200f10f3b = $(`<div id="html_c70c741c3d447f05a99208e200f10f3b" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Arlindo da Silva Costa <br><b>Bairro:</b> Palmeiras <br><b>Afetados:</b> 0<br><b>Status:</b> livre<br><b>Prioridade:</b> 0.0%</div>`)[0];
-                popup_bdabc7d9a16a13cb96b308ff8e3a0e0d.setContent(html_c70c741c3d447f05a99208e200f10f3b);
+                var html_d0a9a67dbbd481c10f705de89caca801 = $(`<div id="html_d0a9a67dbbd481c10f705de89caca801" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Arlindo da Silva Costa <br><b>Bairro:</b> Palmeiras <br><b>Afetados:</b> 0.0<br><b>Status:</b> livre<br><b>Prioridade:</b> 0.0%</div>`)[0];
+                popup_46e34b4ab62f75c9f5d9e87c395e3b48.setContent(html_d0a9a67dbbd481c10f705de89caca801);
             
         
 
-        circle_marker_1e50851f7f1d3b7c6067a10a0857cb51.bindPopup(popup_bdabc7d9a16a13cb96b308ff8e3a0e0d)
+        circle_marker_2d5be7d5a8377cee118ca3b9f910c761.bindPopup(popup_46e34b4ab62f75c9f5d9e87c395e3b48)
+        ;
+
+        
+    
+    
+            var circle_marker_8bae7d9b6e75a35d7adcd13869ad7bbe = L.circleMarker(
+                [-21.1219705, -42.9516757],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 1}
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
+        
+    
+        var popup_677b60d4a773d920662bbefd3a7c018f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a5d03591ae41a5b28d2ff224f07ff5a = $(`<div id="html_4a5d03591ae41a5b28d2ff224f07ff5a" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Rua Hamilton Peluso 375<br><b>Bairro:</b> Peluso <br><b>Afetados:</b> 0.0<br><b>Status:</b> livre<br><b>Prioridade:</b> 0.0%</div>`)[0];
+                popup_677b60d4a773d920662bbefd3a7c018f.setContent(html_4a5d03591ae41a5b28d2ff224f07ff5a);
+            
+        
+
+        circle_marker_8bae7d9b6e75a35d7adcd13869ad7bbe.bindPopup(popup_677b60d4a773d920662bbefd3a7c018f)
+        ;
+
+        
+    
+    
+            var circle_marker_3cce8b76daca6ab5b44c704af22bc542 = L.circleMarker(
+                [-21.1590437, -42.9913562],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 1}
+            ).addTo(map_bad4bb423798da62af29f495e21bb9a5);
+        
+    
+        var popup_56cfefb520996c91d0e35166f1acc334 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a4cc9b17bd5f00f2d31cf6f67c0af7f = $(`<div id="html_5a4cc9b17bd5f00f2d31cf6f67c0af7f" style="width: 100.0%; height: 100.0%;"><b>Rua:</b> Av.Dr.Heitor Peixoto Toledo <br><b>Bairro:</b> Colônia <br><b>Afetados:</b> 0.0<br><b>Status:</b> livre<br><b>Prioridade:</b> 0.0%</div>`)[0];
+                popup_56cfefb520996c91d0e35166f1acc334.setContent(html_5a4cc9b17bd5f00f2d31cf6f67c0af7f);
+            
+        
+
+        circle_marker_3cce8b76daca6ab5b44c704af22bc542.bindPopup(popup_56cfefb520996c91d0e35166f1acc334)
         ;
 
         
